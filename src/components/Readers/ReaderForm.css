@@ -1,0 +1,27 @@
+
+.reader-form {
+  max-width: 600px;
+  padding: 24px;
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.reader-form h3 {
+  font-size: 18px;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+
+.reader-form-error {
+  margin-bottom: 16px;
+  color: var(--danger-color);
+  font-size: 13px;
+}
+
+.reader-form-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,11 @@
+
+.books-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.books-actions {
+  display: flex;
+  justify-content: flex-start;
+}
